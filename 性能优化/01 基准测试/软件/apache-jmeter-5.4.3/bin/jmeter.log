@@ -1,0 +1,1547 @@
+2022-03-10 10:01:39,425 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-03-10 10:01:39,433 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-03-10 10:01:39,434 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-03-10 10:01:39,441 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: Version 5.4.3
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: java.version=1.8.0_291
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: os.name=Windows 10
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: os.arch=amd64
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: os.version=10.0
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: file.encoding=GBK
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: java.awt.headless=null
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-03-10 10:01:39,442 INFO o.a.j.JMeter: Available Processors =12
+2022-03-10 10:01:39,448 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-03-10 10:01:39,448 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-03-10 10:01:39,448 INFO o.a.j.JMeter: JMeterHome=D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具\软件\apache-jmeter-5.4.3
+2022-03-10 10:01:39,448 INFO o.a.j.JMeter: user.dir  =D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具\软件\apache-jmeter-5.4.3\bin
+2022-03-10 10:01:39,449 INFO o.a.j.JMeter: PWD       =D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具\软件\apache-jmeter-5.4.3\bin
+2022-03-10 10:01:39,450 INFO o.a.j.JMeter: IP: 192.168.3.205 Name: LAPTOP-VUJP1640 FullName: host.docker.internal
+2022-03-10 10:01:39,536 INFO o.a.j.JMeter: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
+2022-03-10 10:01:39,740 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-03-10 10:01:47,691 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2022-03-10 10:02:01,141 INFO o.a.j.s.FileServer: Default base='D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具\软件\apache-jmeter-5.4.3\bin'
+2022-03-10 10:02:01,143 INFO o.a.j.g.a.Load: Loading file: D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具\线程组.jmx
+2022-03-10 10:02:01,143 INFO o.a.j.s.FileServer: Set new base='D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具'
+2022-03-10 10:02:01,241 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-03-10 10:02:01,254 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-03-10 10:02:01,255 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-03-10 10:02:01,257 INFO o.a.j.s.SaveService: Loading file: D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具\线程组.jmx
+2022-03-10 10:02:01,274 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-10 10:02:01,274 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-10 10:02:01,274 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-10 10:02:01,274 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-10 10:02:01,274 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-03-10 10:02:01,274 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-03-10 10:02:01,285 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-03-10 10:02:01,378 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-03-10 10:02:01,378 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-03-10 10:02:01,379 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-03-10 10:02:01,379 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-03-10 10:02:01,616 INFO o.a.j.s.FileServer: Set new base='D:\Gerry\.NET Arch\2022\性能优化\01 基准测试\02 排查工具'
+2022-03-10 10:05:47,526 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:05:47,526 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:05:47,526 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:05:47,527 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-03-10 10:05:47,527 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-03-10 10:05:47,721 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:05:47,838 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:05:47,839 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:05:47,839 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:05:47,839 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:05:47,850 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:05:47,852 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:05:47,861 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:05:47,861 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:05:47,861 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:05:47,861 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:05:47,861 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:05:47,862 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:05:47,862 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:05:47,862 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:05:47,862 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:05:47,862 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:05:47,862 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:05:47,862 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:05:47,862 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:05:47,864 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:05:47,867 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:05:47,870 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-VUJP1640
+2022-03-10 10:05:47,874 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-03-10 10:05:47,885 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:05:47,905 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:05:47,922 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:05:47,942 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:05:47,946 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-03-10 10:05:47,949 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-03-10 10:05:47,949 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-03-10 10:05:47,961 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:05:47,980 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:05:47,999 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:05:48,019 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:05:48,028 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:05:48,028 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:05:48,028 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:05:48,028 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:05:48,029 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:05:48,029 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:05:48,029 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:05:48,030 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:05:48,030 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:05:48,030 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:05:48,030 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:05:48,030 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:05:48,031 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:05:48,031 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:05:48,031 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:05:48,031 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:05:48,031 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:05:48,031 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:05:48,040 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:05:48,041 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:05:48,041 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:05:48,052 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:05:48,052 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:05:48,061 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:05:48,071 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:05:48,072 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:05:48,081 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:05:48,091 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:05:48,091 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:05:48,100 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:05:48,110 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:05:48,110 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:05:48,120 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:05:48,128 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:05:48,128 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:05:48,142 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:05:48,151 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:05:48,151 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:05:48,162 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:05:48,173 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:05:48,173 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:05:48,182 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:05:48,192 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:05:48,192 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:05:48,200 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:05:48,210 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:05:48,210 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:05:48,220 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:05:48,229 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:05:48,230 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:05:48,241 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:05:48,251 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:05:48,251 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:05:48,259 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:05:48,270 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:05:48,270 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:05:48,280 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:05:48,281 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-03-10 10:05:48,285 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-03-10 10:05:48,286 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-03-10 10:05:48,290 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:05:48,291 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:05:48,301 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:05:48,312 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:05:48,312 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:05:48,321 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:05:48,335 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:05:48,335 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:05:48,340 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:05:48,349 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:05:48,349 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:05:48,360 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:05:48,361 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:05:48,369 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:05:48,369 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:05:48,380 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:05:48,387 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:05:48,388 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:05:48,400 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:05:48,407 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:05:48,407 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:05:48,420 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:05:48,427 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:05:48,428 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:05:48,439 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:05:48,447 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:05:48,447 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:05:48,460 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:05:48,469 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:05:48,469 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:05:48,481 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:05:48,492 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:05:48,492 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:05:48,500 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:05:48,509 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:05:48,509 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:05:48,519 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:05:48,529 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:05:48,529 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:05:48,540 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:05:48,550 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:05:48,550 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:05:48,560 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:05:48,568 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:05:48,568 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:05:48,580 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:05:48,595 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:05:48,595 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:05:48,595 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:05:48,595 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:05:48,597 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:05:48,597 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:05:48,598 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:05:48,598 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:05:48,600 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:05:48,607 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:05:48,607 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:05:48,620 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:05:48,625 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:05:48,626 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:05:48,641 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:05:48,647 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:05:48,648 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:05:48,661 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:05:48,669 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:05:48,669 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:05:48,680 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:05:48,687 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:05:48,687 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:05:48,700 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:05:48,706 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:05:48,706 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:05:48,721 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:05:48,727 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:05:48,727 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:05:48,740 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:05:48,748 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:05:48,748 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:05:48,759 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:05:48,769 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:05:48,770 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:05:48,781 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:05:48,787 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:05:48,787 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:05:48,801 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:05:48,807 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:05:48,807 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:05:48,820 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:05:48,826 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:05:48,826 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:05:48,826 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:05:48,826 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:05:48,826 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-10 10:06:08,399 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:06:08,400 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:06:08,400 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:06:08,401 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:06:08,401 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:06:08,401 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:08,401 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:06:08,406 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:06:08,407 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:06:08,417 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:06:08,417 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:06:08,417 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:06:08,417 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:08,417 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:06:08,417 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:06:08,417 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:06:08,417 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:06:08,417 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:08,417 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:06:08,417 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:06:08,418 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:06:08,418 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:06:08,418 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:06:08,429 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:06:08,441 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:06:08,441 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:06:08,443 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:06:08,443 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:06:08,443 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:06:08,447 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:06:08,447 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:06:08,449 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:06:08,449 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:06:08,454 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:06:08,454 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:06:08,462 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:06:08,469 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:06:08,469 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:06:08,482 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:06:08,489 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:06:08,490 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:06:08,503 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:06:08,509 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:06:08,509 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:06:08,522 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:06:08,528 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:06:08,528 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:06:08,542 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:06:08,548 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:06:08,548 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:06:08,562 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:06:08,568 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:06:08,568 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:06:08,581 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:06:08,589 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:06:08,589 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:06:08,601 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:06:08,609 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:06:08,609 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:06:08,621 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:06:08,628 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:06:08,628 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:06:08,641 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:06:08,648 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:06:08,648 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:06:08,662 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:06:08,668 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:06:08,669 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:06:08,682 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:06:08,692 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:06:08,692 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:06:08,701 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:06:08,706 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:06:08,706 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:06:08,721 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:06:08,726 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:06:08,726 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:06:08,741 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:06:08,746 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:06:08,746 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:06:08,762 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:06:08,767 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:06:08,767 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:06:08,782 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:06:08,787 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:06:08,787 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:06:08,802 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:06:08,807 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:06:08,807 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:06:08,822 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:06:08,829 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:06:08,829 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:06:08,841 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:06:08,847 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:06:08,847 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:06:08,861 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:06:08,866 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:06:08,866 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:06:08,882 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:06:08,887 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:06:08,887 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:06:08,903 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:06:08,912 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:06:08,912 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:06:08,918 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:06:08,921 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:06:08,927 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:06:08,927 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:06:08,932 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:06:08,932 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:06:08,943 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:06:08,949 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:06:08,949 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:06:08,962 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:06:08,969 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:06:08,969 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:06:08,983 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:06:08,988 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:06:08,988 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:06:09,002 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:06:09,007 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:06:09,007 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:06:09,021 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:06:09,026 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:06:09,026 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:06:09,041 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:06:09,046 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:06:09,046 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:06:09,062 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:06:09,067 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:06:09,067 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:06:09,082 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:06:09,087 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:06:09,087 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:06:09,102 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:06:09,107 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:06:09,108 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:06:09,121 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:06:09,126 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:06:09,126 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:06:09,141 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:06:09,146 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:06:09,146 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:06:09,162 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:06:09,167 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:06:09,167 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:06:09,183 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:06:09,189 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:06:09,189 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:06:09,203 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:06:09,208 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:06:09,208 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:06:09,222 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:06:09,227 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:06:09,227 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:06:09,242 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:06:09,247 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:06:09,247 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:06:09,261 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:06:09,266 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:06:09,266 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:06:09,282 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:06:09,286 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:06:09,287 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:06:09,301 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:06:09,306 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:06:09,306 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:06:09,322 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:06:09,329 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:06:09,329 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:06:09,342 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:06:09,347 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:06:09,347 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:06:09,362 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:06:09,367 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:06:09,367 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:06:09,382 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:06:09,388 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:06:09,388 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:06:09,388 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:06:09,388 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:06:09,388 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-10 10:06:32,569 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:06:32,569 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:06:32,570 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:06:32,570 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:06:32,570 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:06:32,570 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:32,570 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:06:32,571 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:06:32,576 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:06:32,584 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:06:32,584 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:06:32,584 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:06:32,584 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:32,584 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:06:32,584 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:06:32,584 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:06:32,584 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:06:32,584 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:06:32,584 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:32,584 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:06:32,584 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:06:32,584 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:06:32,585 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:06:32,594 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:06:32,613 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:06:32,613 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:06:32,619 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:06:32,619 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:06:32,622 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:06:32,622 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:06:32,626 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:06:32,626 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:06:32,626 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:06:32,632 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:06:32,632 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:06:32,635 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:06:32,642 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:06:32,642 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:06:32,657 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:06:32,662 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:06:32,662 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:06:32,671 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:06:32,676 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:06:32,676 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:06:32,691 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:06:32,696 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:06:32,696 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:06:32,710 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:06:32,715 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:06:32,715 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:06:32,730 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:06:32,735 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:06:32,735 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:06:32,750 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:06:32,755 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:06:32,755 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:06:32,770 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:06:32,774 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:06:32,774 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:06:32,790 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:06:32,795 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:06:32,795 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:06:32,810 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:06:32,814 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:06:32,814 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:06:32,831 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:06:32,836 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:06:32,836 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:06:32,852 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:06:32,857 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:06:32,857 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:06:32,871 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:06:32,876 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:06:32,876 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:06:32,891 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:06:32,895 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:06:32,895 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:06:32,911 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:06:32,915 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:06:32,915 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:06:32,931 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:06:32,935 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:06:32,935 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:06:32,951 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:06:32,955 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:06:32,955 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:06:32,971 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:06:32,976 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:06:32,976 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:06:32,992 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:06:32,996 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:06:32,996 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:06:33,012 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:06:33,016 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:06:33,016 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:06:33,031 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:06:33,035 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:06:33,036 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:06:33,051 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:06:33,056 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:06:33,056 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:06:33,071 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:06:33,075 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:06:33,075 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:06:33,085 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:06:33,091 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:06:33,096 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:06:33,096 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:06:33,099 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:06:33,099 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:06:33,112 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:06:33,118 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:06:33,118 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:06:33,132 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:06:33,136 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:06:33,136 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:06:33,152 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:06:33,156 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:06:33,156 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:06:33,171 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:06:33,174 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:06:33,174 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:06:33,191 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:06:33,195 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:06:33,195 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:06:33,211 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:06:33,215 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:06:33,215 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:06:33,231 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:06:33,235 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:06:33,235 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:06:33,251 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:06:33,254 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:06:33,255 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:06:33,271 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:06:33,276 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:06:33,276 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:06:33,292 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:06:33,296 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:06:33,296 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:06:33,312 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:06:33,316 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:06:33,316 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:06:33,331 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:06:33,336 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:06:33,336 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:06:33,351 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:06:33,355 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:06:33,355 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:06:33,371 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:06:33,377 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:06:33,377 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:06:33,391 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:06:33,395 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:06:33,395 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:06:33,411 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:06:33,415 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:06:33,415 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:06:33,432 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:06:33,436 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:06:33,436 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:06:33,452 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:06:33,456 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:06:33,456 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:06:33,471 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:06:33,476 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:06:33,476 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:06:33,491 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:06:33,495 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:06:33,495 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:06:33,511 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:06:33,515 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:06:33,515 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:06:33,532 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:06:33,537 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:06:33,537 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:06:33,552 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:06:33,556 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:06:33,556 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:06:33,556 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:06:33,557 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:06:33,557 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-10 10:06:56,794 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:06:56,794 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:06:56,795 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:06:56,869 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:06:56,869 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:06:56,869 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:56,869 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:06:56,870 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:06:56,871 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:06:56,876 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:06:56,876 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:06:56,876 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:06:56,876 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:56,876 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:06:56,876 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:06:56,876 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:06:56,876 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:06:56,877 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:06:56,877 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:06:56,877 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:06:56,877 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:06:56,877 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:06:56,877 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:06:56,889 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:06:56,907 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:06:56,907 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:06:56,907 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:06:56,907 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:06:56,910 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:06:56,912 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:06:56,912 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:06:56,923 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:06:56,923 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:06:56,929 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:06:56,933 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:06:56,933 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:06:56,949 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:06:56,953 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:06:56,953 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:06:56,970 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:06:56,973 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:06:56,974 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:06:56,990 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:06:56,994 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:06:56,994 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:06:57,009 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:06:57,013 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:06:57,013 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:06:57,030 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:06:57,035 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:06:57,035 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:06:57,050 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:06:57,054 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:06:57,054 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:06:57,071 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:06:57,076 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:06:57,076 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:06:57,091 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:06:57,096 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:06:57,096 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:06:57,111 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:06:57,115 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:06:57,115 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:06:57,131 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:06:57,136 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:06:57,136 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:06:57,150 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:06:57,155 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:06:57,155 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:06:57,170 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:06:57,176 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:06:57,176 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:06:57,190 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:06:57,194 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:06:57,195 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:06:57,209 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:06:57,209 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:06:57,209 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:06:57,215 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:06:57,215 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:06:57,230 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:06:57,235 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:06:57,235 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:06:57,250 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:06:57,255 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:06:57,255 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:06:57,270 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:06:57,274 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:06:57,275 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:06:57,290 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:06:57,294 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:06:57,294 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:06:57,310 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:06:57,314 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:06:57,314 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:06:57,329 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:06:57,335 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:06:57,335 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:06:57,350 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:06:57,357 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:06:57,357 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:06:57,370 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:06:57,375 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:06:57,375 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:06:57,378 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:06:57,389 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:06:57,390 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:06:57,390 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:06:57,405 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:06:57,405 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:06:57,410 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:06:57,414 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:06:57,414 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:06:57,430 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:06:57,434 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:06:57,434 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:06:57,450 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:06:57,456 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:06:57,456 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:06:57,470 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:06:57,475 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:06:57,475 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:06:57,490 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:06:57,495 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:06:57,495 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:06:57,509 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:06:57,514 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:06:57,514 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:06:57,530 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:06:57,535 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:06:57,535 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:06:57,550 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:06:57,554 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:06:57,554 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:06:57,570 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:06:57,574 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:06:57,574 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:06:57,591 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:06:57,596 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:06:57,596 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:06:57,610 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:06:57,615 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:06:57,615 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:06:57,631 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:06:57,636 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:06:57,636 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:06:57,650 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:06:57,654 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:06:57,654 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:06:57,670 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:06:57,675 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:06:57,675 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:06:57,690 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:06:57,694 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:06:57,694 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:06:57,710 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:06:57,714 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:06:57,714 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:06:57,731 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:06:57,736 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:06:57,736 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:06:57,751 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:06:57,756 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:06:57,756 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:06:57,771 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:06:57,776 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:06:57,776 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:06:57,789 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:06:57,793 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:06:57,793 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:06:57,809 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:06:57,824 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:06:57,824 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:06:57,829 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:06:57,833 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:06:57,833 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:06:57,849 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:06:57,853 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:06:57,853 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:06:57,853 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:06:57,853 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:06:57,853 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-10 10:26:17,496 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:26:17,496 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:26:17,496 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:26:17,497 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:26:17,497 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:26:17,497 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:26:17,497 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:26:17,498 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:26:17,503 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:26:17,515 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:26:17,516 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:26:17,516 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:26:17,516 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:26:17,516 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:26:17,516 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:26:17,516 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:26:17,516 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:26:17,516 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:26:17,516 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:26:17,516 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:26:17,516 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:26:17,516 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:26:17,516 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:26:17,517 INFO o.a.j.u.SSLManager: JmeterKeyStore Location: C:\Users\Administrator\Desktop\桌面\test.cer type JKS
+2022-03-10 10:26:17,517 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-03-10 10:26:17,517 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-03-10 10:26:17,520 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:26:17,552 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:26:17,568 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:26:17,582 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:26:17,602 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:26:17,604 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:26:17,604 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:26:17,617 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:26:17,618 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:26:17,618 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:26:17,623 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:26:17,623 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:26:17,625 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:26:17,625 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:26:17,627 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:26:17,627 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:26:17,627 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:26:17,627 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:26:17,631 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:26:17,631 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:26:17,635 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:26:17,635 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:26:17,638 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:26:17,638 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:26:17,639 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:26:17,647 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:26:17,648 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:26:17,659 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:26:17,664 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:26:17,664 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:26:17,683 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:26:17,693 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:26:17,693 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:26:17,703 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:26:17,707 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:26:17,707 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:26:17,722 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:26:17,726 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:26:17,726 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:26:17,737 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:26:17,742 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:26:17,742 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:26:17,762 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:26:17,766 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:26:17,766 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:26:17,783 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:26:17,788 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:26:17,788 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:26:17,804 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:26:17,808 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:26:17,808 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:26:17,818 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:26:17,822 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:26:17,822 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:26:17,839 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:26:17,843 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:26:17,843 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:26:17,859 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:26:17,863 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:26:17,863 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:26:17,878 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:26:17,884 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:26:17,884 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:26:17,897 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:26:17,901 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:26:17,901 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:26:17,918 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:26:17,922 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:26:17,922 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:26:17,938 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:26:17,941 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:26:17,941 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:26:17,957 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:26:17,961 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:26:17,961 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:26:17,978 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:26:17,982 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:26:17,982 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:26:17,998 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:26:18,002 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:26:18,002 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:26:18,017 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:26:18,019 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:26:18,022 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:26:18,023 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:26:18,028 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:26:18,028 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:26:18,038 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:26:18,042 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:26:18,042 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:26:18,058 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:26:18,063 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:26:18,063 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:26:18,078 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:26:18,082 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:26:18,082 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:26:18,098 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:26:18,102 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:26:18,102 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:26:18,118 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:26:18,122 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:26:18,122 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:26:18,138 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:26:18,142 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:26:18,142 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:26:18,158 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:26:18,164 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:26:18,164 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:26:18,179 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:26:18,183 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:26:18,183 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:26:18,198 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:26:18,202 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:26:18,202 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:26:18,218 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:26:18,222 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:26:18,222 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:26:18,237 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:26:18,240 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:26:18,241 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:26:18,257 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:26:18,261 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:26:18,261 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:26:18,277 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:26:18,281 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:26:18,282 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:26:18,297 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:26:18,301 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:26:18,301 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:26:18,318 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:26:18,322 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:26:18,322 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:26:18,338 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:26:18,342 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:26:18,342 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:26:18,358 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:26:18,363 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:26:18,363 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:26:18,377 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:26:18,381 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:26:18,381 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:26:18,397 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:26:18,401 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:26:18,401 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:26:18,417 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:26:18,421 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:26:18,421 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:26:18,437 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:26:18,441 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:26:18,441 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:26:18,457 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:26:18,460 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:26:18,461 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:26:18,478 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:26:18,482 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:26:18,482 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:26:18,482 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:26:18,482 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:26:18,482 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-10 10:31:21,386 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:31:21,386 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:31:21,387 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:31:21,387 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:31:21,387 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:31:21,387 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:31:21,387 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:31:21,388 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:31:21,388 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:31:21,400 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:31:21,400 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:31:21,400 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:31:21,400 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:31:21,400 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:31:21,401 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:31:21,401 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:31:21,401 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:31:21,401 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:31:21,401 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:31:21,401 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:31:21,401 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:31:21,401 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:31:21,401 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:31:21,402 INFO o.a.j.u.SSLManager: JmeterKeyStore Location: D:\Gerry\ssl\test.keystore type JKS
+2022-03-10 10:31:21,402 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-03-10 10:31:21,422 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:31:21,422 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:31:21,423 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:31:21,428 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:31:21,428 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:31:21,439 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:31:21,442 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:31:21,443 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:31:21,448 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:31:21,451 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:31:21,451 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:31:21,468 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:31:21,472 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:31:21,472 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:31:21,491 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:31:21,495 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:31:21,495 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:31:21,511 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:31:21,514 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:31:21,514 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:31:21,533 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:31:21,537 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:31:21,537 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:31:21,548 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:31:21,552 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:31:21,552 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:31:21,569 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:31:21,572 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:31:21,572 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:31:21,588 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:31:21,591 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:31:21,591 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:31:21,609 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:31:21,612 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:31:21,613 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:31:21,629 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:31:21,633 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:31:21,633 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:31:21,647 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:31:21,651 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:31:21,651 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:31:21,668 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:31:21,671 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:31:21,671 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:31:21,687 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:31:21,691 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:31:21,691 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:31:21,708 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:31:21,712 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:31:21,712 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:31:21,729 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:31:21,732 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:31:21,732 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:31:21,747 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:31:21,751 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:31:21,751 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:31:21,767 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:31:21,770 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:31:21,771 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:31:21,787 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:31:21,792 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:31:21,792 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:31:21,808 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:31:21,811 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:31:21,811 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:31:21,827 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:31:21,831 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:31:21,831 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:31:21,847 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:31:21,851 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:31:21,851 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:31:21,867 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:31:21,871 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:31:21,871 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:31:21,888 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:31:21,892 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:31:21,892 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:31:21,901 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:31:21,908 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:31:21,911 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:31:21,911 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:31:21,927 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:31:21,931 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:31:21,931 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:31:21,947 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:31:21,952 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:31:21,952 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:31:21,967 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:31:21,971 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:31:21,971 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:31:21,987 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:31:21,991 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:31:21,991 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:31:22,007 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:31:22,011 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:31:22,011 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:31:22,027 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:31:22,031 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:31:22,031 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:31:22,048 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:31:22,051 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:31:22,051 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:31:22,068 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:31:22,071 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:31:22,071 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:31:22,087 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:31:22,090 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:31:22,090 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:31:22,107 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:31:22,111 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:31:22,111 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:31:22,127 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:31:22,130 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:31:22,130 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:31:22,147 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:31:22,150 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:31:22,150 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:31:22,167 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:31:22,171 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:31:22,171 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:31:22,187 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:31:22,191 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:31:22,191 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:31:22,207 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:31:22,211 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:31:22,211 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:31:22,227 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:31:22,230 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:31:22,231 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:31:22,248 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:31:22,252 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:31:22,252 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:31:22,268 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:31:22,271 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:31:22,271 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:31:22,288 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:31:22,291 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:31:22,291 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:31:22,307 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:31:22,311 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:31:22,311 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:31:22,327 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:31:22,331 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:31:22,331 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:31:22,347 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:31:22,351 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:31:22,351 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:31:22,367 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:31:22,371 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:31:22,371 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:31:30,277 ERROR o.a.j.u.SSLManager: Problem loading keystore: No key(s) found
+java.lang.NullPointerException: No key(s) found
+	at java.util.Objects.requireNonNull(Objects.java:228) ~[?:1.8.0_291]
+	at org.apache.jmeter.util.keystore.JmeterKeyStore.load(JmeterKeyStore.java:138) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.util.SSLManager.retryLoadKeys(SSLManager.java:181) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.util.SSLManager.getKeyStore(SSLManager.java:146) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.util.JsseSSLManager.createContext(JsseSSLManager.java:213) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.util.JsseSSLManager.getContext(JsseSSLManager.java:175) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.util.HttpSSLProtocolSocketFactory.getSSLSocketFactory(HttpSSLProtocolSocketFactory.java:111) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.util.HttpSSLProtocolSocketFactory.createSocket(HttpSSLProtocolSocketFactory.java:178) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:393) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.jmeter.protocol.http.sampler.hc.LazyLayeredConnectionSocketFactory.connectSocket(LazyLayeredConnectionSocketFactory.java:91) [ApacheJMeter_http.jar:5.4.3]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:404) [ApacheJMeter_http.jar:5.4.3]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) [httpclient-4.5.12.jar:4.5.12]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:935) [ApacheJMeter_http.jar:5.4.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:646) [ApacheJMeter_http.jar:5.4.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.4.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1296) [ApacheJMeter_http.jar:5.4.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1285) [ApacheJMeter_http.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:638) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+2022-03-10 10:31:30,299 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:31:30,299 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:31:30,299 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:31:30,299 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:31:30,299 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:31:30,299 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:31:30,299 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:31:30,299 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:31:30,299 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-10 10:31:48,230 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:31:48,231 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:31:48,231 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:31:48,305 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:31:48,306 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:31:48,306 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:31:48,306 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:31:48,307 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:31:48,307 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:31:48,313 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:31:48,313 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:31:48,313 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:31:48,313 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:31:48,313 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:31:48,313 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:31:48,313 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:31:48,313 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:31:48,313 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:31:48,313 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:31:48,313 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:31:48,313 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:31:48,313 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:31:48,314 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:31:48,330 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:31:48,330 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:31:48,331 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:31:48,331 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:31:48,334 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:31:48,334 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:31:48,342 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:31:48,346 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:31:48,346 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:31:48,358 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:31:48,361 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:31:48,361 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:31:48,374 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:31:48,377 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:31:48,377 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:31:48,390 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:31:48,393 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:31:48,393 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:31:48,407 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:31:48,410 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:31:48,410 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:31:48,427 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:31:48,430 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:31:48,430 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:31:48,447 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:31:48,451 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:31:48,451 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:31:48,466 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:31:48,470 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:31:48,470 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:31:48,487 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:31:48,490 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:31:48,490 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:31:48,507 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:31:48,511 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:31:48,511 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:31:48,527 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:31:48,531 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:31:48,531 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:31:48,547 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:31:48,551 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:31:48,551 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:31:48,566 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:31:48,569 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:31:48,569 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:31:48,587 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:31:48,590 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:31:48,590 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:31:48,607 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:31:48,610 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:31:48,610 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:31:48,627 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:31:48,630 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:31:48,630 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:31:48,647 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:31:48,650 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:31:48,650 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:31:48,668 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:31:48,672 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:31:48,672 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:31:48,688 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:31:48,691 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:31:48,692 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:31:48,708 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:31:48,712 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:31:48,712 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:31:48,727 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:31:48,731 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:31:48,731 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:31:48,747 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:31:48,751 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:31:48,751 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:31:48,767 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:31:48,770 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:31:48,770 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:31:48,787 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:31:48,790 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:31:48,790 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:31:48,807 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:31:48,810 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:31:48,810 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:31:48,814 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:31:48,824 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:31:48,824 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:31:48,827 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:31:48,830 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:31:48,830 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:31:48,848 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:31:48,852 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:31:48,852 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:31:48,868 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:31:48,872 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:31:48,872 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:31:48,887 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:31:48,891 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:31:48,891 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:31:48,907 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:31:48,911 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:31:48,911 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:31:48,927 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:31:48,931 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:31:48,932 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:31:48,947 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:31:48,952 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:31:48,952 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:31:48,968 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:31:48,973 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:31:48,973 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:31:48,988 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:31:48,996 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:31:48,996 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:31:49,007 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:31:49,010 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:31:49,010 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:31:49,027 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:31:49,030 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:31:49,030 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:31:49,047 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:31:49,050 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:31:49,050 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:31:49,067 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:31:49,070 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:31:49,070 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:31:49,088 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:31:49,092 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:31:49,092 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:31:49,108 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:31:49,112 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:31:49,112 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:31:49,128 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:31:49,131 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:31:49,131 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:31:49,147 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:31:49,150 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:31:49,150 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:31:49,167 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:31:49,170 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:31:49,170 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:31:49,187 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:31:49,192 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:31:49,192 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:31:49,207 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:31:49,210 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:31:49,210 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:31:49,227 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:31:49,230 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:31:49,230 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:31:49,248 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:31:49,252 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:31:49,252 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:31:49,268 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:31:49,271 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:31:49,271 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:31:49,287 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:31:49,290 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:31:49,290 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:31:49,290 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:31:49,290 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:31:49,291 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-10 10:32:05,703 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-10 10:32:05,703 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-10 10:32:05,704 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-10 10:32:05,771 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2022-03-10 10:32:05,771 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2022-03-10 10:32:05,771 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:32:05,771 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2022-03-10 10:32:05,772 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2022-03-10 10:32:05,772 INFO o.a.j.s.FileServer: Stored: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:32:05,777 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-10 10:32:05,777 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 线程组
+2022-03-10 10:32:05,777 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2022-03-10 10:32:05,777 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:32:05,777 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=2 ramp-up=1 delayedStart=false
+2022-03-10 10:32:05,777 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-03-10 10:32:05,777 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : 线程组
+2022-03-10 10:32:05,777 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2022-03-10 10:32:05,777 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-10 10:32:05,777 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-03-10 10:32:05,777 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-1
+2022-03-10 10:32:05,777 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-03-10 10:32:05,778 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-10 10:32:05,778 INFO o.a.j.t.JMeterThread: Thread started: 线程组 3-1
+2022-03-10 10:32:05,786 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2022-03-10 10:32:05,786 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2022-03-10 10:32:05,792 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 3-1
+2022-03-10 10:32:05,792 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 3-1
+2022-03-10 10:32:05,796 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-1
+2022-03-10 10:32:05,796 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-1
+2022-03-10 10:32:05,804 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2022-03-10 10:32:05,808 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-2
+2022-03-10 10:32:05,809 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2022-03-10 10:32:05,812 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2022-03-10 10:32:05,815 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-3
+2022-03-10 10:32:05,815 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2022-03-10 10:32:05,832 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2022-03-10 10:32:05,836 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-4
+2022-03-10 10:32:05,836 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2022-03-10 10:32:05,852 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2022-03-10 10:32:05,856 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-5
+2022-03-10 10:32:05,856 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2022-03-10 10:32:05,872 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2022-03-10 10:32:05,876 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-6
+2022-03-10 10:32:05,876 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2022-03-10 10:32:05,891 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2022-03-10 10:32:05,895 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-7
+2022-03-10 10:32:05,895 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2022-03-10 10:32:05,912 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2022-03-10 10:32:05,916 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-8
+2022-03-10 10:32:05,916 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2022-03-10 10:32:05,932 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2022-03-10 10:32:05,935 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-9
+2022-03-10 10:32:05,935 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2022-03-10 10:32:05,952 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2022-03-10 10:32:05,956 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-10
+2022-03-10 10:32:05,956 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2022-03-10 10:32:05,972 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2022-03-10 10:32:05,976 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-11
+2022-03-10 10:32:05,976 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2022-03-10 10:32:05,992 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2022-03-10 10:32:05,995 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-12
+2022-03-10 10:32:05,995 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2022-03-10 10:32:06,012 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2022-03-10 10:32:06,015 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-13
+2022-03-10 10:32:06,015 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2022-03-10 10:32:06,032 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2022-03-10 10:32:06,035 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-14
+2022-03-10 10:32:06,035 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2022-03-10 10:32:06,052 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2022-03-10 10:32:06,055 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-15
+2022-03-10 10:32:06,055 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2022-03-10 10:32:06,072 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2022-03-10 10:32:06,075 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-16
+2022-03-10 10:32:06,075 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2022-03-10 10:32:06,092 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2022-03-10 10:32:06,095 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-17
+2022-03-10 10:32:06,095 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2022-03-10 10:32:06,113 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2022-03-10 10:32:06,116 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-18
+2022-03-10 10:32:06,116 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2022-03-10 10:32:06,133 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2022-03-10 10:32:06,136 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-19
+2022-03-10 10:32:06,136 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2022-03-10 10:32:06,153 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2022-03-10 10:32:06,156 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-20
+2022-03-10 10:32:06,156 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2022-03-10 10:32:06,172 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2022-03-10 10:32:06,175 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-21
+2022-03-10 10:32:06,176 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2022-03-10 10:32:06,192 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2022-03-10 10:32:06,196 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-22
+2022-03-10 10:32:06,196 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2022-03-10 10:32:06,212 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2022-03-10 10:32:06,216 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-23
+2022-03-10 10:32:06,216 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2022-03-10 10:32:06,232 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2022-03-10 10:32:06,236 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-24
+2022-03-10 10:32:06,236 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2022-03-10 10:32:06,252 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2022-03-10 10:32:06,255 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-25
+2022-03-10 10:32:06,255 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2022-03-10 10:32:06,272 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2022-03-10 10:32:06,275 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-26
+2022-03-10 10:32:06,275 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2022-03-10 10:32:06,278 INFO o.a.j.t.JMeterThread: Thread started: 线程组 2-2
+2022-03-10 10:32:06,288 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 2-2
+2022-03-10 10:32:06,288 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 2-2
+2022-03-10 10:32:06,293 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2022-03-10 10:32:06,296 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-27
+2022-03-10 10:32:06,296 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2022-03-10 10:32:06,313 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2022-03-10 10:32:06,316 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-28
+2022-03-10 10:32:06,316 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2022-03-10 10:32:06,333 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2022-03-10 10:32:06,336 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-29
+2022-03-10 10:32:06,336 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2022-03-10 10:32:06,352 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2022-03-10 10:32:06,356 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-30
+2022-03-10 10:32:06,356 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2022-03-10 10:32:06,372 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2022-03-10 10:32:06,375 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-31
+2022-03-10 10:32:06,375 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2022-03-10 10:32:06,391 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2022-03-10 10:32:06,394 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-32
+2022-03-10 10:32:06,394 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2022-03-10 10:32:06,411 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2022-03-10 10:32:06,415 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-33
+2022-03-10 10:32:06,415 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2022-03-10 10:32:06,432 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2022-03-10 10:32:06,436 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-34
+2022-03-10 10:32:06,436 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2022-03-10 10:32:06,453 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2022-03-10 10:32:06,457 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-35
+2022-03-10 10:32:06,457 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2022-03-10 10:32:06,473 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2022-03-10 10:32:06,477 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-36
+2022-03-10 10:32:06,477 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2022-03-10 10:32:06,492 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2022-03-10 10:32:06,496 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-37
+2022-03-10 10:32:06,496 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2022-03-10 10:32:06,512 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2022-03-10 10:32:06,515 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-38
+2022-03-10 10:32:06,515 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2022-03-10 10:32:06,532 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2022-03-10 10:32:06,535 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-39
+2022-03-10 10:32:06,535 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2022-03-10 10:32:06,552 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2022-03-10 10:32:06,556 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-40
+2022-03-10 10:32:06,556 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2022-03-10 10:32:06,572 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2022-03-10 10:32:06,576 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-41
+2022-03-10 10:32:06,576 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2022-03-10 10:32:06,592 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2022-03-10 10:32:06,596 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-42
+2022-03-10 10:32:06,596 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2022-03-10 10:32:06,613 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2022-03-10 10:32:06,616 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-43
+2022-03-10 10:32:06,616 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2022-03-10 10:32:06,633 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2022-03-10 10:32:06,636 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-44
+2022-03-10 10:32:06,636 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2022-03-10 10:32:06,652 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2022-03-10 10:32:06,655 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-45
+2022-03-10 10:32:06,655 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2022-03-10 10:32:06,672 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2022-03-10 10:32:06,676 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-46
+2022-03-10 10:32:06,676 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2022-03-10 10:32:06,692 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2022-03-10 10:32:06,696 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-47
+2022-03-10 10:32:06,696 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2022-03-10 10:32:06,712 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2022-03-10 10:32:06,715 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-48
+2022-03-10 10:32:06,716 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2022-03-10 10:32:06,732 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2022-03-10 10:32:06,736 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-49
+2022-03-10 10:32:06,736 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2022-03-10 10:32:06,752 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2022-03-10 10:32:06,755 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-50
+2022-03-10 10:32:06,755 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2022-03-10 10:32:06,755 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-10 10:32:06,755 INFO o.a.j.s.FileServer: Close: D:/Gerry/.NET Arch/2022/性能优化/01 基准测试/02 排查工具/userdata.txt
+2022-03-10 10:32:06,755 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
